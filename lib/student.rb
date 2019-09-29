@@ -7,7 +7,7 @@ class Student
   def initialize(student_hash)
 self.send("name=", student_hash)[:name])
 
-self
+self.se
   end
 
   def self.create_from_collection(students_array)
