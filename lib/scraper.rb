@@ -24,7 +24,7 @@ end
     if element.attr("href").include?("twitter")
       return_hash[:twitter] = element.attr('href')
     elsif element.attr("href").include?("linkedin")
-      return_hash[:Linkedin] = element.attr('href')
+      return_hash[:linkedin] = element.attr('href')
     elsif element.attr("href").include?("github")
       return_hash[:github] = element.attr('href')
     elsif element.attr("href").end_with?("com/")
