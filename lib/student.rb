@@ -12,7 +12,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-s   students
+s   students_array.e
   end
 
   def add_student_attributes(attributes_hash)
