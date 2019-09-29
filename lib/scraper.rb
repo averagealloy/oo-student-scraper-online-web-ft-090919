@@ -23,7 +23,7 @@ end
   social.each do |element| #iderate thru asign keys to elements it they exist
     if element.attr('href').include?("twitter")
       return_hash[:twitter] = element.attr('href')
-    elsif element.attr('href").include?("linkedin")
+    elsif element.attr('href').include?("linkedin")
       return_hash[:linkedin] = element.attr('href')
     elsif element.attr("href").include?("github")
       return_hash[:github] = element.attr('href')
