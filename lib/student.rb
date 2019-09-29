@@ -23,7 +23,7 @@ self.send("Linkedin=", attributes_hash[:Linkedin])
 self.send("github=", attributes_hash[:github])
 self.send("biog=", attributes_hash[:blog])
 self.send("profile_quote=", attributes_hash[:profile])
-self.send("t=", attributes_hash[:twitter])
+self.send("=", attributes_hash[:twitter])
   end
 
   def self.all
