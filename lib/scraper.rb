@@ -34,4 +34,4 @@ class Scraper
 
 end
 return_hash[:profile_quote] = doc.css(".vitals-container .vitals-text-container .profle-quote").text
-return_hash[:bio] = doc 
+return_hash[:bio] = doc.c
