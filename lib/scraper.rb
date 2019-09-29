@@ -10,7 +10,7 @@ class Scraper
     student_cards.collect do |element|
       {:name => element.css(".student-name").text,
         :location => element.css(".student-location").text,
-        :pofile_url => element.attr('href')}
+        :profile_url => element.attr('href')}
       end
 
 end
