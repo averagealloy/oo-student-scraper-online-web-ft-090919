@@ -19,7 +19,7 @@ end
     doc = Nokogiri::HTML(html)
     return_hash = {}
 
-  social = doc.css("vitals-container .social-icon-container a")
+  social = doc.css(".vitals-container .social-icon-container a")
   social.each do |element| #iderate thru asign keys to elements it they exist
     if element.attr("href").include?("twitter")
       return_hash[:twitter] = element.attr('href')
