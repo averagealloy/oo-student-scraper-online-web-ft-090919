@@ -8,11 +8,11 @@ class Student
     self.send("name=", student_hash[:name])
     self.send("location=", student_hash[:location])
     self.send("profile_url", student_hash[:profile_url])
-    @@all << self 
+    @@all << self
   end
 
   def self.create_from_collection(students_array)
-
+s
   end
 
   def add_student_attributes(attributes_hash)
