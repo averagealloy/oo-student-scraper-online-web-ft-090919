@@ -33,4 +33,4 @@ class Scraper
   end
 
 end
-return_hash[]
+return_hash[:]
