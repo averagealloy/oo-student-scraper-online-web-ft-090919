@@ -33,4 +33,4 @@ class Scraper
   end
 
 end
-attr_reader :attr_names
+a
