@@ -19,6 +19,8 @@ class Scraper
     doc = Nokogiri :: HTML(html)
     return_hash = {}
 
+  
+
 
   end
 
