@@ -5,7 +5,7 @@ class Student
   @@all = []
 
   def initialize(student_hash)
-self.send("n")
+self.send("nanm")
   end
 
   def self.create_from_collection(students_array)
