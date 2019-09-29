@@ -12,7 +12,7 @@ class Scraper
         :location => element.css(".student-location").text,
         :porfile_url => element.attr('href')}
       end
-  end
+  
 
   def self.scrape_profile_page(profile_url)
     html = open(profile_url)
@@ -37,4 +37,4 @@ return_hash[:profile_quote] = doc.css(".vitals-container .vitals-text-container 
 return_hash[:bio] = doc.css(".bio-block.details-block .bio-content.content-holder .description-holder p").text
 return_hash
 end
-end 
+end
