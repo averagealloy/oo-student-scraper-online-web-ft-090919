@@ -18,7 +18,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-self.send("twitter=", attrib)
+self.send("twitter=", attributes_)
   end
 
   def self.all
