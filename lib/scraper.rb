@@ -8,7 +8,7 @@ class Scraper
     doc = Nokogiri :: HTML(html)
     student_cards = doc.css(".student-card a")
     student_cards.collect do |element|
-      {:name => element.css(".student-")}
+      {:name => element.css(".student-name")}
   end
 
   def self.scrape_profile_page(profile_url)
