@@ -23,7 +23,7 @@ class Scraper
   social.each do |element| #iderate thru asign keys to elements it they exist
     if element.attr("href").include?("twitter")
       return_hash[:twitter] = element.attr('href')
-    elsif e
+    elsif 
 
 
   end
