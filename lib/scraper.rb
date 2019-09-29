@@ -25,6 +25,7 @@ class Scraper
       return_hash[:twitter] = element.attr('href')
     elsif element.attr("href").include?("Linkedin")
       return_hash[:Linkedin] = element.attr('href')
+      els
 
   end
 
