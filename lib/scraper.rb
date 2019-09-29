@@ -33,4 +33,4 @@ class Scraper
   end
 
 end
-return_hash[:profile_quote] = doc.css("")
+return_hash[:profile_quote] = doc.css(".")
