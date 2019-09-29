@@ -28,7 +28,7 @@ class Scraper
     elsif element.attr("href").include?("github")
       return_hash[:github] = element.attr('href')
     elsif element.attr("href").end_with?("com/")
-      
+      return_hash[:github] = element.attr('href')
 
   end
 
