@@ -21,7 +21,7 @@ class Student
 self.send("twitter=", attributes_hash[:twitter])
 self.send("Linkedin=", attributes_hash[:Linkedin])
 self.send("github=", attributes_hash[:github])
-self.send("bio=", attributes_hash[:blo])
+self.send("biog=", attributes_hash[:blo])
   end
 
   def self.all
