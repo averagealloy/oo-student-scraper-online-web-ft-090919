@@ -16,7 +16,7 @@ class Scraper
 end
   def self.scrape_profile_page(profile_url)
     html = open(profile_url)
-    doc = Nokogiri :: HTML(html)
+    doc = Nokogiri ::HTML(html)
     return_hash = {}
 
   social = doc.css(",vitals-container .social-icon-container a")
