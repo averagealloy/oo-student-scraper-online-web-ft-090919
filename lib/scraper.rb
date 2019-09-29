@@ -20,7 +20,7 @@ class Scraper
     return_hash = {}
 
   social = doc.css(",vitals-container .social-icon-container a")
-  social.each
+  social.each 
 
 
   end
