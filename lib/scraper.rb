@@ -20,7 +20,7 @@ class Scraper
     return_hash = {}
 
   social = doc.css(",vitals-container .social-icon-container a")
-  social.each do |element| #iderate thru asign keys to elements 
+  social.each do |element| #iderate thru asign keys to elements it they 
 
 
   end
