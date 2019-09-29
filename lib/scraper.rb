@@ -21,7 +21,7 @@ class Scraper
 
   social = doc.css(",vitals-container .social-icon-container a")
   social.each do |element| #iderate thru asign keys to elements it they exist
-    if element.attr("href").include?("twitt")
+    if element.attr("href").include?("twitter")
 
 
   end
