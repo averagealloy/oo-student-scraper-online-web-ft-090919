@@ -21,7 +21,7 @@ end
 
   social = doc.css(".vitals-container .social-icon-container a")
   social.each do |element| #iderate thru asign keys to elements it they exist
-    if element.attr("href").include?("twitter")
+    if element.attr('href").include?("twitter")
       return_hash[:twitter] = element.attr('href')
     elsif element.attr("href").include?("linkedin")
       return_hash[:linkedin] = element.attr('href')
