@@ -26,7 +26,7 @@ class Scraper
     elsif element.attr("href").include?("Linkedin")
       return_hash[:Linkedin] = element.attr('href')
     elsif element.attr("href").include?("github")
-      return_hash[:gi] = element.attr('href')
+      return_hash[:github] = element.attr('href')
 
   end
 
