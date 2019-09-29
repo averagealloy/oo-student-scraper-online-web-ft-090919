@@ -19,7 +19,7 @@ class Scraper
     doc = Nokogiri :: HTML(html)
     return_hash = {}
 
-  social = doc.css(",vi")
+  social = doc.css(",vitals")
 
 
   end
