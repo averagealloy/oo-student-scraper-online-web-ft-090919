@@ -12,8 +12,8 @@ class Scraper
         :location => element.css(".student-location").text,
         :porfile_url => element.attr('href')}
       end
-  
 
+end 
   def self.scrape_profile_page(profile_url)
     html = open(profile_url)
     doc = Nokogiri :: HTML(html)
