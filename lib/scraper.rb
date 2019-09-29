@@ -33,7 +33,7 @@ end
   end
 
 end
-return_hash[:profile_quote] = doc.css(".vitals-container .vitals-text-container .profle-quote").text
+return_hash[:profile_quote] = doc.css(".vitals-container .vitals-text-container .profile_quotele-quote").text
 return_hash[:bio] = doc.css(".bio-block.details-block .bio-content.content-holder .description-holder p").text
 return_hash
 end
