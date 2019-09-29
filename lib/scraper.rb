@@ -27,7 +27,7 @@ end
       return_hash[:linkedin] = element.attr('href')
     elsif element.attr('href').include?("github")
       return_hash[:github] = element.attr('href')
-    elsif element.attr('href').end_with?("com/")
+    elsif element.attr('href').end_with?(".com/")
       return_hash[:blog] = element.attr('href')
 
   end
