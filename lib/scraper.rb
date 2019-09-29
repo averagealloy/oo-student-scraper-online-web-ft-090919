@@ -11,7 +11,7 @@ class Scraper
       {:name => element.css(".student-name").text,
         :location => element.css(".student-location").text,
         :porfile_url => element.attr('href')}
-      end 
+      end
   end
 
   def self.scrape_profile_page(profile_url)
